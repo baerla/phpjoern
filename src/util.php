@@ -132,9 +132,9 @@ function get_flag_info() : array {
         ],
         ast\AST_ASSIGN_OP => $sharedBinaryOps + [
             // Old version 10 flags
-            flags\ASSIGN_BITWISE_OR => 'ASSIGN_BITWISE_OR',
-            flags\ASSIGN_BITWISE_AND => 'ASSIGN_BITWISE_AND',
-            flags\ASSIGN_BITWISE_XOR => 'ASSIGN_BITWISE_XOR',
+            flags\ASSIGN_BITWISE_OR => 'ASSIGN_BW_OR',
+            flags\ASSIGN_BITWISE_AND => 'ASSIGN_BW_AND',
+            flags\ASSIGN_BITWISE_XOR => 'ASSIGN_BW_XOR',
             flags\ASSIGN_CONCAT => 'ASSIGN_CONCAT',
             flags\ASSIGN_ADD => 'ASSIGN_ADD',
             flags\ASSIGN_SUB => 'ASSIGN_SUB',
